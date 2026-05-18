@@ -6,9 +6,9 @@ export const botConfig = {
   // BOT PRESENCE (what users see under the bot name)
   // =========================
   // `status` options:
-  // - "online"    = green dot
-  // - "idle"      = yellow moon
-  // - "dnd"       = red do-not-disturb
+  // - "Active"    = green dot
+  // - "Resting"      = yellow moon
+  // - "Busy"       = red do-not-disturb
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made with Fear",
         // Activity type number (0 = Playing).
         type: 0, 
       },
